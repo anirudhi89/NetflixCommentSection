@@ -2,7 +2,7 @@
   "manifest_version": 3,
   "name": "Netflix Comment Section",
   "description": "Enable time-stamped comments on Netflix movies, TV shows, and more!",
-  "version": "1.0",
+  "version": "1.0.0",
   "action": {
     "default_popup": "pages/main.html",
     "default_icon": "hello_extensions.png"
