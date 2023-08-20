@@ -3,8 +3,8 @@ class Comment {
         this.author = author;
         this.message = message;
         this.createdDate = createdDate;
-        this.startTime = this.startTime;
-        this.endTime = this.endTime;
+        this.startTime = startTime;
+        this.endTime = endTime;
     }
     get author() {
         return this.author;
