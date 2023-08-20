@@ -17,7 +17,7 @@ function addNewComment() {
     var author = document.getElementById("author").value;
     var message = document.getElementById("message").value;
     var startTime = document.getElementById("start_time").value;
-    var endTime = document.getElementById("end_time").value;
+    var endTime = ((document.getElementById("end_time").value != null) ? document.getElementById("end_time").value : startTime + 5);
     var createdDate = new Date();
     var comment = new Comment(author, message, createdDate, startTime, endTime);
     fetch("/comments", {
