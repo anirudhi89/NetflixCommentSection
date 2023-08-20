@@ -27,7 +27,7 @@ function addNewComment() {
         },
         body: JSON.stringify(comment)
     }).then(function(response) {
-        return response.json();
+        return response.text();
     })
 } 
 
